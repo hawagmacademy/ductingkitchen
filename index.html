@@ -14,19 +14,23 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
+  <!-- Fonts: Non-blocking load -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap"
-    rel="stylesheet">
-  
-  <!-- Preload Hero Image (LCP) -->
-  <link rel="preload" as="image" href="assets/img/home/jasa-instalasi-ducting-kitchen.webp">
+    rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  </noscript>
+
+  <!-- Preload Hero Image (LCP) with high priority -->
+  <link rel="preload" as="image" href="assets/img/home/jasa-instalasi-ducting-kitchen.webp" fetchpriority="high">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"></noscript>
   <link href="assets/vendor/aos/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" media="print" onload="this.media='all'">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" media="print" onload="this.media='all'">
