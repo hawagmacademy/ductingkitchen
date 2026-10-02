@@ -9,6 +9,14 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
+/* Bootstrap Icons: force font-display swap to prevent render-blocking */
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("../vendor/bootstrap-icons/fonts/bootstrap-icons.woff2") format("woff2"),
+       url("../vendor/bootstrap-icons/fonts/bootstrap-icons.woff") format("woff");
+  font-display: swap;
+}
+
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
