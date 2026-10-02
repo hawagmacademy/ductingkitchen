@@ -6322,7 +6322,8 @@ section,
   background: #ff9f1c;
 }
 
-.kng-feature-item:nth-child(2) .kng-feature-content h4 {
+.kng-feature-item:nth-child(2) .kng-feature-content h4,
+.kng-feature-item:nth-child(2) .kng-feature-content h3 {
   color: #ffffff;
 }
 
@@ -6376,7 +6377,8 @@ section,
   flex: 1;
 }
 
-.kng-feature-content h4 {
+.kng-feature-content h4,
+.kng-feature-content h3 {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
