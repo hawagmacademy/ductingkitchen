@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Cara Mengoptimalkan Distribusi Air Flow AC Sentral di Mall & Office | Ducting Kitchen</title>
+  <meta name="description"
+    content="Pelajari cara mengoptimalkan distribusi air flow AC sentral dengan penyetelan diffuser, VAV box, dan balancing ducting untuk kenyamanan termal dan efisiensi energi.">
+  <meta name="keywords"
+    content="distribusi air flow ac sentral, ac sentral mall, ac sentral kantor, balancing ducting, diffuser ac sentral, vav box">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* ================================================
+       BLOG DETAIL PAGE — CUSTOM STYLES
+    ================================================ */
+
+    /* Hero */
+    .blog-detail-hero {
+      background: linear-gradient(150deg, #050e1e 0%, #0a2040 55%, #0d3566 100%);
+      padding: 80px 0 56px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .blog-detail-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 55% 80% at 75% 50%, rgba(0, 180, 216, .13), transparent),
+        radial-gradient(ellipse 35% 55% at 15% 25%, rgba(0, 119, 182, .1), transparent);
+    }
+
+    .blog-detail-hero .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .blog-hero-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: .8rem;
+      color: rgba(255, 255, 255, .5);
+      margin-bottom: 22px;
+    }
+
+    .blog-hero-breadcrumb a {
+      color: rgba(255, 255, 255, .55);
+      text-decoration: none;
+    }
+
+    .blog-hero-breadcrumb a:hover {
+      color: #00b4d8;
+    }
+
+    .blog-hero-breadcrumb i {
+      font-size: .65rem;
+    }
+
+    .blog-hero-cat-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(0, 180, 216, .15);
+      border: 1px solid rgba(0, 180, 216, .35);
+      color: #00b4d8;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 50px;
+      margin-bottom: 18px;
+    }
+
+    .blog-detail-hero h1 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: clamp(1.7rem, 4vw, 2.5rem);
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.22;
+      margin-bottom: 22px;
+    }
+
+    .blog-detail-hero h1 em {
+      color: #00b4d8;
+      font-style: normal;
+    }
+
+    .blog-hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      font-size: .83rem;
+      color: rgba(255, 255, 255, .55);
+    }
+
+    .blog-hero-meta span {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .blog-hero-meta i {
+      color: #00b4d8;
+    }
+
+    /* Layout Body */
+    .blog-detail-body {
+      padding: 70px 0;
+      background: #f4f8fb;
+    }
+
+    /* Content Card */
+    .blog-content-card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 6px 32px rgba(0, 0, 0, .07);
+      overflow: hidden;
+    }
+
+    .blog-hero-cover {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .blog-content-inner {
+      padding: 44px 48px;
+    }
+
+    .article-text {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.02rem;
+      line-height: 1.88;
+      color: #374151;
+    }
+
+    .article-text p {
+      margin-bottom: 1.35rem;
+    }
+
+    .article-text h2 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #0b1f3a;
+      margin: 2.6rem 0 1rem;
+      padding-left: 15px;
+      border-left: 4px solid #0077b6;
+    }
+
+    /* Info Box */
+    .info-box {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      background: linear-gradient(135deg, #eef8ff, #dff0ff);
+      border: 1px solid #bde0fd;
+      border-left: 4px solid #0077b6;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 22px 0;
+    }
+
+    .info-box i {
+      color: #0077b6;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .info-box p {
+      font-size: .9rem;
+      color: #0c2a4a;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    /* Point card */
+    .point-card {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin-bottom: 14px;
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .point-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 28px rgba(0, 119, 182, .08);
+      border-color: #bde0fd;
+    }
+
+    .point-num {
+      flex-shrink: 0;
+      width: 46px;
+      height: 46px;
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: #fff;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      font-weight: 800;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      box-shadow: 0 4px 12px rgba(0, 119, 182, .3);
+    }
+
+    .point-body h4 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: .97rem;
+      font-weight: 700;
+      color: #0c2a4a;
+      margin-bottom: 6px;
+    }
+
+    .point-body p {
+      font-size: .91rem;
+      color: #4b5563;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    /* Solution box */
+    .solution-box {
+      background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+      border: 1px solid #6ee7b7;
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 22px;
+    }
+
+    .solution-box h4 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: .97rem;
+      font-weight: 700;
+      color: #065f46;
+      margin-bottom: 10px;
+    }
+
+    .solution-box h4 i {
+      color: #059669;
+      font-size: 1.1rem;
+    }
+
+    .solution-box ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .solution-box ul li {
+      font-size: .91rem;
+      color: #1f2937;
+      margin-bottom: 6px;
+      line-height: 1.55;
+    }
+
+    /* Warning */
+    .warn-box {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      border-left: 4px solid #f97316;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 22px 0;
+    }
+
+    .warn-box i {
+      color: #f97316;
+      font-size: 1.35rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .warn-box p {
+      font-size: .9rem;
+      color: #7c2d12;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    /* Inline image */
+    .article-img-inline {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 14px;
+      margin: 30px 0 10px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, .1);
+    }
+
+    .img-caption {
+      text-align: center;
+      font-size: .82rem;
+      color: #6b7280;
+      font-style: italic;
+      margin-bottom: 28px;
+    }
+
+    /* Inline CTA */
+    .article-cta {
+      background: linear-gradient(135deg, #023e8a, #0077b6);
+      border-radius: 18px;
+      padding: 28px 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      justify-content: space-between;
+      margin: 36px 0;
+    }
+
+    .article-cta-text h4 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 1.08rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 5px;
+    }
+
+    .article-cta-text p {
+      font-size: .86rem;
+      color: rgba(255, 255, 255, .72);
+      margin: 0;
+    }
+
+    .article-cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #25D366;
+      color: #fff;
+      font-size: .89rem;
+      font-weight: 700;
+      padding: 11px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: all .25s;
+    }
+
+    .article-cta-btn:hover {
+      background: #1ebe5d;
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(37, 211, 102, .35);
+    }
+
+    /* Tags */
+    .article-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding-top: 26px;
+      margin-top: 38px;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .article-tag {
+      background: #f1f5f9;
+      color: #475569;
+      font-size: .79rem;
+      font-weight: 600;
+      padding: 5px 13px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all .2s;
+    }
+
+    .article-tag:hover {
+      background: #0077b6;
+      color: #fff;
+    }
+
+    /* Author */
+    .author-box {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      background: linear-gradient(135deg, #f0f9ff, #dff0fb);
+      border: 1px solid #bde0fd;
+      border-radius: 16px;
+      padding: 22px 24px;
+      margin-top: 38px;
+    }
+
+    .author-avatar {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: #fff;
+      flex-shrink: 0;
+    }
+
+    .author-info h5 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: .97rem;
+      font-weight: 800;
+      color: #0b1f3a;
+      margin-bottom: 4px;
+    }
+
+    .author-info p {
+      font-size: .86rem;
+      color: #4b5563;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    /* Sidebar */
+    .blog-sidebar {
+      position: sticky;
+      top: 88px;
+    }
+
+    .sidebar-card {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, .06);
+      padding: 26px 28px;
+      margin-bottom: 22px;
+    }
+
+    .sidebar-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: .97rem;
+      font-weight: 800;
+      color: #0b1f3a;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .sidebar-title i {
+      color: #0077b6;
+    }
+
+    /* TOC */
+    .toc-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      counter-reset: toc;
+    }
+
+    .toc-list li {
+      counter-increment: toc;
+      margin-bottom: 8px;
+    }
+
+    .toc-list li a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: .86rem;
+      color: #374151;
+      text-decoration: none;
+      padding: 7px 11px;
+      border-radius: 8px;
+      transition: all .2s;
+      font-weight: 500;
+    }
+
+    .toc-list li a::before {
+      content: counter(toc);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 22px;
+      height: 22px;
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: #fff;
+      font-size: .7rem;
+      font-weight: 800;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+
+    .toc-list li a:hover {
+      background: #f0f9ff;
+      color: #0077b6;
+    }
+
+    /* Related articles in sidebar */
+    .sidebar-related-item {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding-bottom: 13px;
+      margin-bottom: 13px;
+      border-bottom: 1px solid #f1f5f9;
+      text-decoration: none;
+      transition: all .2s;
+    }
+
+    .sidebar-related-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    .sidebar-related-item:hover .sra-title {
+      color: #0077b6;
+    }
+
+    .sidebar-related-thumb {
+      width: 68px;
+      height: 58px;
+      object-fit: cover;
+      border-radius: 9px;
+      flex-shrink: 0;
+    }
+
+    .sra-cat {
+      font-size: .7rem;
+      font-weight: 700;
+      color: #0077b6;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 3px;
+    }
+
+    .sra-title {
+      font-size: .84rem;
+      font-weight: 700;
+      color: #1e293b;
+      line-height: 1.3;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      transition: color .2s;
+    }
+
+    .sra-date {
+      font-size: .74rem;
+      color: #94a3b8;
+      margin-top: 4px;
+    }
+
+    /* CTA Card */
+    .sidebar-cta-card {
+      background: linear-gradient(135deg, #023e8a, #0077b6);
+      border-radius: 18px;
+      padding: 26px;
+    }
+
+    .sidebar-cta-card h3 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: .97rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .sidebar-cta-card p {
+      font-size: .85rem;
+      color: rgba(255, 255, 255, .75);
+      margin-bottom: 18px;
+      line-height: 1.6;
+    }
+
+    .sidebar-cta-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #25D366;
+      color: #fff;
+      font-size: .88rem;
+      font-weight: 700;
+      padding: 11px 18px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: all .25s;
+    }
+
+    .sidebar-cta-btn:hover {
+      background: #1ebe5d;
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+    /* Related Full Section */
+    .related-section {
+      padding: 70px 0;
+      background: #fff;
+    }
+
+    .section-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 1.7rem;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 35px;
+    }
+
+    .related-card {
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 22px rgba(0, 0, 0, .07);
+      text-decoration: none;
+      display: block;
+      transition: all .3s;
+    }
+
+    .related-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, .12);
+    }
+
+    .related-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .related-card-body {
+      padding: 20px 22px;
+    }
+
+    .related-card-cat {
+      font-size: .73rem;
+      font-weight: 700;
+      color: #0077b6;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 7px;
+    }
+
+    .related-card-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: .98rem;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+
+    .related-card-excerpt {
+      font-size: .86rem;
+      color: #6b7280;
+      line-height: 1.6;
+      margin-bottom: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .related-card-meta {
+      font-size: .78rem;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 768px) {
+      .blog-content-inner {
+        padding: 30px 24px;
+      }
+
+      .blog-hero-cover {
+        height: 260px;
+      }
+
+      .article-cta {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+      }
+
+      .article-cta-btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+
+</head>
+
+<body class="blog-page">
+
+  <!-- Header Placeholder -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Ducting Kitchen</h1> <span>.</span>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+          <li><a href="services.html">Layanan</a></li>
+          <li><a href="projects.html">Proyek</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section class="blog-detail-hero">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="blog-hero-breadcrumb">
+              <a href="index.html">Home</a>
+              <i class="bi bi-chevron-right"></i>
+              <a href="blog.html">Blog</a>
+              <i class="bi bi-chevron-right"></i>
+              <span>Detail Artikel</span>
+            </div>
+
+            <div class="blog-hero-cat-pill">
+              <i class="bi bi-snow"></i> AC Sentral
+            </div>
+
+            <h1 data-aos="fade-up">Cara Mengoptimalkan Distribusi Air Flow AC Sentral di Area Mall & Office</h1>
+
+            <div class="blog-hero-meta" data-aos="fade-up" data-aos-delay="100">
+              <span><i class="bi bi-person-circle"></i> Spesialis HVAC</span>
+              <span><i class="bi bi-calendar3"></i> 05 Sep 2026</span>
+              <span><i class="bi bi-clock"></i> 5 Menit Baca</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-detail-body">
+      <div class="container">
+        <div class="row gy-5">
+
+          <!-- Left Main Content -->
+          <div class="col-lg-8">
+            <div class="blog-content-card" data-aos="fade-up">
+              <!-- First Image -->
+              <img src="assets/img/blog/distribusi-ac-central-mall.webp" alt="Instalasi AC Sentral Mall" class="blog-hero-cover">
+
+              <div class="blog-content-inner article-text">
+                <p class="lead"
+                  style="font-size:1.15rem; color:#1e293b; font-weight:500; line-height:1.7; margin-bottom:2rem;">
+                  AC Sentral merupakan nadi utama pendinginan udara pada bangunan komersial besar seperti mall dan
+                  perkantoran. Namun, mendinginkan area seluas itu bukan hanya soal seberapa besar kapasitas mesin
+                  <em>Chiller</em> atau AHU (<em>Air Handling Unit</em>), melainkan tentang bagaimana udara dingin
+                  tersebut didistribusikan secara efektif dan merata.
+                </p>
+
+                <p>
+                  Sering kali kita menjumpai area kantor yang sangat dingin di satu sudut, namun terasa sumpek di sudut
+                  lainnya. Ini adalah tanda masalah pada distribusi aliran udara (<em>air flow balancing</em>).
+                </p>
+
+                <h2 id="komponen-kunci">Komponen Kunci dalam Distribusi Udara</h2>
+                <p>Untuk mencapai penyebaran udara yang sempurna, beberapa komponen harus dikalibrasi secara presisi
+                  selama proses TAB (<em>Testing, Adjusting, Balancing</em>).</p>
+
+                <div class="point-card">
+                  <div class="point-num">1</div>
+                  <div class="point-body">
+                    <h4>VAV Box (Variable Air Volume)</h4>
+                    <p>Komponen cerdas ini mengatur jumlah volume udara yang masuk ke sebuah zona berdasarkan sensor
+                      thermostat. Jika suhu ruangan sudah mencapai target, VAV akan mengurangi suplai udara untuk
+                      menghemat beban AHU.</p>
+                  </div>
+                </div>
+
+                <div class="point-card">
+                  <div class="point-num">2</div>
+                  <div class="point-body">
+                    <h4>Volume Damper (Manual & Motorized)</h4>
+                    <p>Katup pada percabangan saluran ducting yang berfungsi mencekik atau membuka debit angin. Damper
+                      yang diatur dengan baik memastikan ruangan yang jaraknya jauh dari mesin utama tetap mendapat
+                      suplai angin yang cukup.</p>
+                  </div>
+                </div>
+
+                <div class="point-card">
+                  <div class="point-num">3</div>
+                  <div class="point-body">
+                    <h4>Grille dan Diffuser</h4>
+                    <p>Merupakan titik akhir keluarnya udara. Desain sirip diffuser (misal: <em>4-way ceiling
+                        diffuser</em>) sangat mempengaruhi pola sebaran angin. Penyetelan sirip yang keliru dapat
+                      menyebabkan udara dingin langsung "jatuh" ke kepala karyawan di bawahnya (fenomena
+                      <em>drafting</em>).
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Second Image -->
+                <img src="assets/img/blog/ducting-ac-central-office.webp" alt="Air Flow Balancing" class="article-img-inline">
+                <div class="img-caption">Teknisi melakukan kalibrasi kecepatan angin (velocity) di lubang diffuser
+                  menggunakan anemometer.</div>
+
+                <h2 id="langkah-optimasi">Langkah Mengoptimalkan Efisiensi</h2>
+                <p>Optimalisasi sistem AC sentral berdampak langsung pada penghematan biaya listrik yang nilainya bisa
+                  mencapai puluhan juta rupiah per bulan bagi pengelola gedung.</p>
+
+                <div class="solution-box">
+                  <h4><i class="bi bi-gear-wide-connected"></i> Strategi Optimasi</h4>
+                  <ul>
+                    <li><strong>Balancing Ulang secara Berkala:</strong> Setiap kali ada perubahan partisi ruangan atau
+                      pemindahan meja kerja, jalur distribusi udara perlu ditinjau dan diseimbangkan ulang.</li>
+                    <li><strong>Pembersihan Ducting:</strong> Timbunan debu di dalam ducting akan meningkatkan hambatan
+                      statis (static pressure). Mesin akan bekerja lebih keras untuk mendorong udara. Cleaning ducting
+                      secara reguler wajib dilakukan.</li>
+                    <li><strong>Perawatan Coil AHU:</strong> Evaporator coil yang kotor akibat debu dan lendir
+                      menghambat perpindahan suhu, menyebabkan hembusan angin melemah.</li>
+                  </ul>
+                </div>
+
+                <h2 id="kerugian-distribusi">Kerugian Akibat Distribusi yang Buruk</h2>
+                <p>Sistem distribusi yang tidak berimbang tidak bisa diatasi hanya dengan menurunkan setting suhu di
+                  <em>thermostat</em>.
+                </p>
+
+                <div class="warn-box">
+                  <i class="bi bi-exclamation-triangle-fill"></i>
+                  <p><strong>Overcooling vs Undercooling:</strong> Memaksa suhu AHU menjadi 18°C hanya agar ruang
+                    meeting di pojok terasa dingin akan menyebabkan area lobi menjadi sangat beku (<em>overcooling</em>)
+                    dan membakar tagihan listrik secara percuma.</p>
+                </div>
+
+                <!-- Inline CTA -->
+                <div class="article-cta">
+                  <div class="article-cta-text">
+                    <h4>Perlu Jasa Balancing Ducting AC Sentral?</h4>
+                    <p>Optimalkan sistem tata udara gedung Anda bersama teknisi tersertifikasi kami.</p>
+                  </div>
+                  <a href="https://wa.me/6285210620252?text=Halo%20Ducting%20Kitchen,%20saya%20ingin%20berkonsultasi%20mengenai%20perawatan%20Ducting%20AC%20Sentral."
+                    target="_blank" class="article-cta-btn">
+                    <i class="bi bi-whatsapp"></i> Hubungi Konsultan HVAC
+                  </a>
+                </div>
+
+                <p>Distribusi air flow yang tepat akan menciptakan kenyamanan termal bagi seluruh penghuni gedung
+                  sekaligus memperpanjang usia mesin kompresor AC Sentral Anda.</p>
+
+                <div class="article-tags">
+                  <a href="blog.html" class="article-tag">AC Sentral</a>
+                  <a href="blog.html" class="article-tag">Air Flow</a>
+                  <a href="blog.html" class="article-tag">HVAC Balancing</a>
+                  <a href="blog.html" class="article-tag">VAV Box</a>
+                </div>
+
+                <div class="author-box">
+                  <div class="author-avatar"><i class="bi bi-person"></i></div>
+                  <div class="author-info">
+                    <h5>Spesialis HVAC</h5>
+                    <p>Ducting Kitchen melayani instalasi, fabrikasi, dan kalibrasi sistem ducting pendingin komersial &
+                      industri untuk efisiensi energi yang lebih baik.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Sidebar -->
+          <div class="col-lg-4">
+            <div class="blog-sidebar">
+
+              <!-- Table of Contents -->
+              <div class="sidebar-card" data-aos="fade-up">
+                <h4 class="sidebar-title"><i class="bi bi-list-nested"></i> Daftar Isi</h4>
+                <ul class="toc-list">
+                  <li><a href="#komponen-kunci">Komponen Kunci</a></li>
+                  <li><a href="#langkah-optimasi">Langkah Optimasi</a></li>
+                  <li><a href="#kerugian-distribusi">Kerugian Buruknya Distribusi</a></li>
+                </ul>
+              </div>
+
+              <!-- Related Articles -->
+              <div class="sidebar-card" data-aos="fade-up" data-aos-delay="100">
+                <h4 class="sidebar-title"><i class="bi bi-journal-text"></i> Baca Juga</h4>
+
+                <a href="pentingnya-ducting-fresh-air-dapur-basement.html" class="sidebar-related-item">
+                  <img src="assets/img/blog/unit-intake-fresh-air-basement.webp" alt="Thumb" class="sidebar-related-thumb">
+                  <div>
+                    <div class="sra-cat">FRESH AIR</div>
+                    <div class="sra-title">Ducting Fresh Air Basement</div>
+                    <div class="sra-date"><i class="bi bi-calendar3"></i> 10 Sep 2026</div>
+                  </div>
+                </a>
+
+                <a href="ducting-pu-vs-bjls-galvanis-mana-lebih-efisien.html" class="sidebar-related-item">
+                  <img src="assets/img/blog/ducting-pu-polyurethane.webp" alt="Thumb" class="sidebar-related-thumb">
+                  <div>
+                    <div class="sra-cat">MATERIAL</div>
+                    <div class="sra-title">Ducting PU vs BJLS Galvanis</div>
+                    <div class="sra-date"><i class="bi bi-calendar3"></i> 20 Sep 2026</div>
+                  </div>
+                </a>
+
+                <a href="penyebab-blower-exhaust-restoran-bising.html" class="sidebar-related-item">
+                  <img src="assets/img/blog/penyebab-blower-exhaust-restoran.webp" alt="Thumb" class="sidebar-related-thumb">
+                  <div>
+                    <div class="sra-cat">EXHAUST KITCHEN</div>
+                    <div class="sra-title">Penyebab Blower Bising</div>
+                    <div class="sra-date"><i class="bi bi-calendar3"></i> 25 Sep 2026</div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- CTA Banner -->
+              <div class="sidebar-cta-card" data-aos="fade-up" data-aos-delay="150">
+                <h3><i class="bi bi-tools"></i> Butuh Optimasi AC?</h3>
+                <p>Hubungi spesialis kami untuk kalibrasi dan air flow balancing sistem ducting pendingin gedung Anda.
+                </p>
+                <a href="contact.html" class="sidebar-cta-btn">Kirim Pesan</a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- More Articles Section -->
+    <section class="related-section">
+      <div class="container">
+        <h3 class="section-title text-center" data-aos="fade-up">Artikel Terkait Lainnya</h3>
+        <div class="row gy-4 mt-2 justify-content-center">
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <a href="pentingnya-ducting-fresh-air-dapur-basement.html" class="related-card">
+              <img src="assets/img/blog/unit-intake-fresh-air-basement.webp" alt="Fresh Air">
+              <div class="related-card-body">
+                <div class="related-card-cat">Fresh Air</div>
+                <h4 class="related-card-title">Pentingnya Ducting Fresh Air di Basement</h4>
+                <p class="related-card-excerpt">Menjaga pasokan oksigen bersih dan keseimbangan tekanan udara negatif
+                  agar suhu kerja dapur dingin...</p>
+                <div class="related-card-meta"><i class="bi bi-calendar3 me-1"></i> 10 Sep 2026</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <a href="jadwal-perawatan-hood-exhaust-cegah-kebakaran-dapur.html" class="related-card">
+              <img src="assets/img/blog/hood-exhaust.webp" alt="Perawatan Hood">
+              <div class="related-card-body">
+                <div class="related-card-cat">Tips Maintenance</div>
+                <h4 class="related-card-title">Jadwal Perawatan Berkala Hood Exhaust</h4>
+                <p class="related-card-excerpt">Pembersihan filter minyak (grease trap) dan degreasing saluran ducting
+                  secara rutin wajib dilakukan...</p>
+                <div class="related-card-meta"><i class="bi bi-calendar3 me-1"></i> 15 Sep 2026</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <a href="ducting-pu-vs-bjls-galvanis-mana-lebih-efisien.html" class="related-card">
+              <img src="assets/img/blog/ducting-pu-polyurethane.webp" alt="Ducting">
+              <div class="related-card-body">
+                <div class="related-card-cat">Material Ducting</div>
+                <h4 class="related-card-title">Ducting PU vs BJLS Galvanis: Mana Efisien?</h4>
+                <p class="related-card-excerpt">Ketahui perbandingan efisiensi isolasi termal, bobot material, serta
+                  ketahanan fisik...</p>
+                <div class="related-card-meta"><i class="bi bi-calendar3 me-1"></i> 20 Sep 2026</div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer-modern">
+    <div class="container footer-top-wrap">
+      <div class="row gy-4">
+
+        <!-- Column 1: Brand Profile -->
+        <div class="col-lg-4 col-md-12 footer-brand-col">
+          <a href="index.html" class="logo d-flex align-items-center gap-3 text-decoration-none mb-3">
+            <div class="footer-logo-icon">
+              <i class="bi bi-fan"></i>
+            </div>
+            <div>
+              <h3 class="footer-brand-name">Ducting Kitchen</h3>
+              <span class="footer-brand-tag">HVAC &amp; Ducting Solution</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            Spesialis fabrikasi, instalasi, perbaikan, dan perawatan berkala sistem ducting exhaust, fresh air, dan HVAC
+            di Jabodetabek, Karawang, &amp; Purwakarta. Berbadan usaha resmi, teknisi K3 bersertifikat, dan bergaransi
+            resmi.
+          </p>
+          <div class="footer-social-group">
+            <a href="#" class="footer-social-pill" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="footer-social-pill" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/6285210620252?text=Halo%20Ducting%20Kitchen%2C%20saya%20ingin%20konsultasi%20ducting."
+              target="_blank" class="footer-social-pill" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Column 2: Navigation -->
+        <div class="col-lg-2 col-6 footer-nav-col">
+          <h4 class="footer-col-title">Navigasi</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html"><i class="bi bi-chevron-right me-1"></i>Beranda</a></li>
+            <li><a href="about.html"><i class="bi bi-chevron-right me-1"></i>Tentang Kami</a></li>
+            <li><a href="produk.html"><i class="bi bi-chevron-right me-1"></i>Produk</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right me-1"></i>Layanan</a></li>
+            <li><a href="blog.html"><i class="bi bi-chevron-right me-1"></i>Blog</a></li>
+            <li><a href="contact.html"><i class="bi bi-chevron-right me-1"></i>Kontak</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Services -->
+        <div class="col-lg-3 col-6 footer-services-col">
+          <h4 class="footer-col-title">Layanan Utama</h4>
+          <ul class="footer-links-list">
+            <li><a href="produk.html#ducting-exhaust"><i class="bi bi-chevron-right me-1"></i>Instalasi Exhaust
+                Kitchen</a></li>
+            <li><a href="ducting-fresh-air-system.html"><i class="bi bi-chevron-right me-1"></i>Ducting Fresh Air
+                System</a></li>
+            <li><a href="ducting-ac-sentral.html"><i class="bi bi-chevron-right me-1"></i>Ducting HVAC &amp; AC
+                Sentral</a></li>
+            <li><a href="ducting-pu.html"><i class="bi bi-chevron-right me-1"></i>Ducting Polyurethane (PU)</a></li>
+            <li><a href="ducting-bjls.html"><i class="bi bi-chevron-right me-1"></i>Ducting BJLS Galvanis</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact Info -->
+        <div class="col-lg-3 col-md-12 footer-contact-col">
+          <h4 class="footer-col-title">Kontak &amp; Area</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <div class="footer-contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <strong>Lokasi Utama:</strong><br>
+                Jakarta, Indonesia
+              </div>
+            </li>
+            <li class="footer-contact-item">
+              <div class="footer-contact-icon"><i class="bi bi-map-fill"></i></div>
+              <div>
+                <strong>Area Layanan:</strong><br>
+                Jakarta, Bogor, Depok, Bekasi, Karawang, Purwakarta
+              </div>
+            </li>
+            <li class="footer-contact-item">
+              <div class="footer-contact-icon"><i class="bi bi-whatsapp"></i></div>
+              <div>
+                <strong>WhatsApp 24/7:</strong><br>
+                <a href="https://wa.me/6285210620252?text=Halo%20Ducting%20Kitchen." target="_blank">+62
+                  852-1062-0252</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Bottom Copyright Strip -->
+    <div class="footer-bottom-strip">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-7 text-center text-md-start">
+            <p class="mb-0">© 2026 <strong>Ducting Kitchen</strong> — Hak Cipta Dilindungi. Spesialis Ducting Exhaust
+              &amp; HVAC.</p>
+          </div>
+          <div class="col-md-5 text-center text-md-end">
+            <div class="footer-bottom-links">
+              <a href="privacy.html">Kebijakan Privasi</a>
+              <span>•</span>
+              <a href="terms.html">Syarat &amp; Ketentuan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/6285210620252?text=Halo%20Ducting%20Kitchen%2C%20saya%20ingin%20konsultasi%20ducting."
+    target="_blank" id="whatsapp-float"
+    style="position:fixed;bottom:85px;right:15px;z-index:9999;background:#25D366;color:#fff;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.8rem;box-shadow:0 4px 15px rgba(37,211,102,0.5);transition:all 0.3s ease;text-decoration:none;"
+    aria-label="Hubungi via WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
