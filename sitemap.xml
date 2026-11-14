@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Halaman Utama (Homepage) -->
+  <url>
+    <loc>https://ductingkitchen.vercel.app/</loc>
+    <xhtml:link rel="alternate" hreflang="id-ID" href="https://ductingkitchen.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ductingkitchen.vercel.app/" />
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/home/jasa-instalasi-ducting-kitchen.webp</image:loc>
+      <image:title>Jasa Fabrikasi dan Instalasi Ducting Kitchen Exhaust &amp; HVAC</image:title>
+      <image:caption>Kontraktor spesialis ducting kitchen exhaust hood restoran, fresh air, dan AC sentral standar SMACNA</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Halaman Utama Navigasi -->
+  <url>
+    <loc>https://ductingkitchen.vercel.app/produk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting15.webp</image:loc>
+      <image:title>Katalog Produk Ducting Kitchen Exhaust, PU, BJLS &amp; Aksesori</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/services.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting9.webp</image:loc>
+      <image:title>Layanan Jasa Instalasi &amp; Maintenance Ducting Kitchen HVAC</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/about.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting4.webp</image:loc>
+      <image:title>Tentang Ducting Kitchen - Kontraktor Spesialis Tata Udara &amp; Exhaust</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/contact.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/blog.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Halaman Detail Produk & Spesialisasi Ducting Kitchen -->
+  <url>
+    <loc>https://ductingkitchen.vercel.app/ducting-exhaust-kitchen.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting15.webp</image:loc>
+      <image:title>Sistem Ducting Exhaust Kitchen Komersial &amp; Hood Stainless</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/ducting-fresh-air-system.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting17.webp</image:loc>
+      <image:title>Ducting Fresh Air System &amp; Make Up Air Dapur Komersial</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/ducting-ac-sentral.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting16.webp</image:loc>
+      <image:title>Instalasi Ducting AC Sentral, AHU, FCU &amp; Chiller Gedung</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/ducting-pu.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting18.webp</image:loc>
+      <image:title>Ducting PU (Polyurethane Pre-Insulated Duct) Hemat Energi</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/ducting-bjls.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting19.webp</image:loc>
+      <image:title>Fabrikasi Ducting BJLS Galvanis &amp; Spiral Duct Standar SMACNA</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/aksesori-ducting.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting20.webp</image:loc>
+      <image:title>Aksesori Ducting Kitchen &amp; HVAC: Diffuser, Grille, Fire Damper</image:title>
+    </image:image>
+  </url>
+
+  <!-- Artikel Blog & Edukasi Teknis Ducting Kitchen -->
+  <url>
+    <loc>https://ductingkitchen.vercel.app/penyebab-blower-exhaust-restoran-bising.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting15.webp</image:loc>
+      <image:title>5 Penyebab Blower Ducting Kitchen Exhaust Restoran Bising</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/ducting-pu-vs-bjls-galvanis-mana-lebih-efisien.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting18.webp</image:loc>
+      <image:title>Perbandingan Ducting PU vs BJLS Galvanis untuk HVAC &amp; Kitchen</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/jadwal-perawatan-hood-exhaust-cegah-kebakaran-dapur.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting9.webp</image:loc>
+      <image:title>Jadwal Perawatan Hood &amp; Ducting Kitchen Cegah Kebakaran Dapur</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/pentingnya-ducting-fresh-air-dapur-basement.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting17.webp</image:loc>
+      <image:title>Pentingnya Ducting Fresh Air untuk Dapur Komersial &amp; Basement</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/cara-mengoptimalkan-distribusi-air-flow-ac-sentral.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting16.webp</image:loc>
+      <image:title>Cara Mengoptimalkan Distribusi Air Flow Ducting AC Sentral</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/regulasi-fungsi-fire-damper-ducting-gedung.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://ductingkitchen.vercel.app/assets/img/construction/ducting20.webp</image:loc>
+      <image:title>Regulasi dan Fungsi Fire Damper pada Instalasi Ducting Gedung</image:title>
+    </image:image>
+  </url>
+
+  <!-- Halaman Pendukung & Legal -->
+  <url>
+    <loc>https://ductingkitchen.vercel.app/team.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/terms.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://ductingkitchen.vercel.app/privacy.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
