@@ -1,4 +1,4 @@
-# robots.txt for https://ductingkitchen.vercel.app
+# robots.txt for https://hawnd.web.id
 # Ducting Kitchen - Spesialis Fabrikasi & Instalasi Sistem Ducting Kitchen & HVAC
 
 User-agent: *
@@ -48,5 +48,5 @@ Allow: /
 User-agent: Meta-ExternalAgent
 Allow: /
 
-Host: https://ductingkitchen.vercel.app
-Sitemap: https://ductingkitchen.vercel.app/sitemap.xml
+Host: https://hawnd.web.id
+Sitemap: https://hawnd.web.id/sitemap.xml
