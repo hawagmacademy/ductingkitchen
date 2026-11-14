@@ -3,8 +3,8 @@
 
 User-agent: *
 Allow: /
-Disallow: /404.html
-Disallow: /starter-page.html
+Disallow: /404
+Disallow: /starter-page
 Disallow: /forms/
 
 # Standard Search Engine Crawlers
